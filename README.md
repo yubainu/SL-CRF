@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18442151.svg)](https://doi.org/10.5281/zenodo.18442151)
+
 # SL-CRF: Sub-Linear Compute Rejection Framework
 ### Overcoming the $O(N^2)$ Scaling Limit via Axiomatic Rejection
 
