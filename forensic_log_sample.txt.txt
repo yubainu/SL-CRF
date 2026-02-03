@@ -1,0 +1,14 @@
+--- ONTOS Phase 1 Forensic Evidence Log ---
+[STATUS]         t=00000 | Current Efficiency: 100.00%
+[STATUS]         t=05000 | Current Efficiency: 98.42%
+[SHOCK_RUNNING]  t=10000 | ActiveEff=0.28 | Updates Frozen
+[SHOCK_RUNNING]  t=11000 | ActiveEff=0.00 | Updates Frozen
+[SHOCK_RUNNING]  t=12000 | ActiveEff=0.00 | Updates Frozen
+[SHOCK_RUNNING]  t=13000 | ActiveEff=0.00 | Updates Frozen
+[SHOCK_RUNNING]  t=14000 | ActiveEff=0.00 | Updates Frozen
+[SHOCK_RUNNING]  t=15000 | ActiveEff=0.00 | Updates Frozen
+[PROMOTED]       t=15101 | New Context Stored | LibSize=1
+[RECALL_SUCCESS] t=15102 | Loaded LibIdx=0 | MahalaDist=32.4102
+[STATUS]         t=15200 | Current Efficiency: 97.98%
+[STATUS]         t=20000 | Current Efficiency: 98.15%
+--- END OF LOG ---
