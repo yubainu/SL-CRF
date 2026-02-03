@@ -12,7 +12,7 @@ In this Phase 1 repository, we present empirical evidence that ONTOS can achieve
 - **Library Scalability:** Contextual axioms are stored as minimal precision matrices (LibSize=1 in this test).
 
 ## Technical Evidence
-![ONTOS Benchmark](ontos_evidence.png)
+ONTOS Benchmark
 
 ### Forensic Log Sample
 ```text
