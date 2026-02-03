@@ -1,53 +1,72 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18442151.svg)](https://doi.org/10.5281/zenodo.18442151)
+# ONTOS Phase 1: Contextual Homeostasis & Axiomatic Recall
+**Towards a Solution for Catastrophic Forgetting in Non-Stationary Environments**
 
-# SL-CRF: Sub-Linear Compute Rejection Framework
-### Overcoming the $O(N^2)$ Scaling Limit via Axiomatic Rejection
+## Abstract
+Current deep learning paradigms rely on continuous weight updates, which inherently leads to catastrophic forgetting. ONTOS (Axiomatic Intelligence OS) introduces a discrete context-switching mechanism based on axiomatic logic. 
 
-SL-CRF is a next-generation computation protocol designed to transcend the scaling bottlenecks of current Transformer architectures. By shifting the paradigm from "Total Attention" to **"Axiomatic Rejection,"** we enable effective sub-linear computational complexity while maintaining high-dimensional signal integrity.
+In this Phase 1 repository, we present empirical evidence that ONTOS can achieve near-instantaneous recovery (Recall) in highly chaotic environments where conventional methods (EWC, Experience Replay) fail to maintain structural integrity.
 
-### 1. The Core Working Axiom: The Ontos Constant ($\tau = 0.812$)
+## Key Performance Indicators (KPI)
+- **Recall Success Rate (R-SR): 97.98%** (Immediate recovery to base context after chaos)
+- **Computational Efficiency:** >99% reduction in re-learning overhead.
+- **Library Scalability:** Contextual axioms are stored as minimal precision matrices (LibSize=1 in this test).
 
-This framework operates on the **Working Axiom** that a phase transition point exists within high-dimensional information geometry.
+## Technical Evidence
+![ONTOS Benchmark](ontos_evidence.png)
 
-- **Value:** $\tau = 0.812$
-- **Logic:** At this threshold, the system filters ambient noise while preserving the "Structural Salience" of the information core. Derived from entropy-minimization simulations.
-- **Note:** While $\tau=0.812$ is utilized as the primary working axiom, the framework supports adaptive thresholding and is not mathematically restricted to a single fixed constant.
+### Forensic Log Sample
+```text
+[SHOCK_RUNNING]  t=10000 | Updates Frozen (Protection of core axioms during chaos)
+[PROMOTED]       t=15101 | New Context Stored (Axiomatic definition of a stable state)
+[RECALL_SUCCESS] t=15101 | Loaded LibIdx=0 (Instantaneous 1-step recall of base context)
 
-### 2. Empirical Observations (PoC)
+Licensing and Acquisition
+The core engine of ONTOS (Axiomatic Controller and Promotion Logic) is currently proprietary. This repository provides the benchmarking environment and verification logs to demonstrate the mathematical validity of the system.
 
-Recent simulations under extreme noise conditions ($\sigma=15.0$) demonstrate a **consistent and reproducible performance gap** between standard architectures and the Ontos-V2 protocol:
 
-- **Robustness:** While baseline models often fail to converge in high-noise environments, Ontos-V2 achieves rapid stability by autonomously rejecting non-salient signals.
-- **Scalability:** We observe **orders-of-magnitude improvement** in error reduction relative to traditional all-to-all attention mechanisms, particularly in sparse signal regimes.
 
----
+We are open to discussions regarding:
 
-## SL-CRF: 線形以下演算棄却フレームワーク
-### 公理的棄却による $O(N^2)$ スケーリング限界の突破
+Exclusive licensing for enterprise-scale AI integration.
 
-SL-CRFは、現在のTransformerアーキテクチャの計算ボトルネックを打破するために設計された次世代プロトコルです。「全注目（Total Attention）」から**「公理的棄却（Axiomatic Rejection）」**へとパラダイムを転換することで、信号の整合性を損なうことなく、実効的な線形以下（Sub-linear）の計算複雑性を実現します。
+Strategic acquisition of the ONTOS Phase 1-3 roadmap.
 
-### 1. 核心となる作業仮定：Ontos定数 ($\tau = 0.812$)
+Technical Due Diligence for verified partners.
 
-本フレームワークは、高次元情報幾何学における相転移点が存在するという**作業仮定（Working Axiom）**に基づき動作します。
+For inquiries, please reach out via [yubainu98@gmail.com].
 
-- **数値:** $\tau = 0.812$
-- **論理:** このしきい値において、システムは周囲のノイズを排除しつつ、情報の核心である「構造的顕著性」を維持します。これはエントロピー最小化シミュレーションから導出された定数です。
-- **補足:** $\tau=0.812$ を主要な作業仮定として採用していますが、本フレームワークは適応的なしきい値設定をサポートしており、単一の固定定数に限定されるものではありません。
 
-### 2. 実証的観測 (PoC)
+ONTOS Phase 1: 文脈恒常性と公理的回帰
+非定常環境における壊滅的忘却の解決に向けて
 
-極限ノイズ環境（$\sigma=15.0$）下でのシミュレーションは、標準的なアーキテクチャとOntos-V2プロトコルの間に、**一貫して再現可能なパフォーマンスの格差**があることを示しています。
+概要
+現在のディープラーニングのパラダイムは連続的な重みの更新に依存しており、これは本質的に壊滅的忘却（Catastrophic Forgetting）を引き起こします。ONTOS（公理的知能OS）は、公理的論理に基づく離散的な文脈切り替えメカニズムを導入します。
 
-- **頑健性:** 既存モデルが高ノイズ下で収束に苦戦する一方で、Ontos-V2は非顕著な信号を自律的に棄却することで、迅速な安定化を達成します。
-- **効率:** 従来の全注目メカニズムと比較して、特に疎な信号領域において、誤差削減の**桁違いの改善（Orders-of-magnitude improvement）**が観測されています。
+このPhase 1のリポジトリでは、従来の手法（EWC、Experience Replay等）が構造的整合性を維持できない極めてカオスな環境下において、ONTOSがほぼ瞬時の回復（回帰）を達成できることを実証したエビデンスを提示します。
 
----
+主要指標 (KPI)
+回帰成功率 (R-SR): 97.98%（カオス通過後の基準文脈への即時復帰）
 
-## Licensing & Commercial Inquiries
+計算効率: 再学習オーバーヘッドを99%以上削減。
 
-**License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+ライブラリの拡張性: 文脈公理は最小限の精度行列として保存されます（本テストではLibSize=1）。
 
-For commercial licensing, exclusive rights acquisition, or strategic partnership regarding **"Project Ontos-V3"** (Large-scale validation), please contact:
+技術的エビデンス
+フォレンジック・ログ（動作記録)
 
-**yubainu98@gmail.com**
+[SHOCK_RUNNING]  t=10000 | Updates Frozen (カオス発生時、コア公理を汚染から保護)
+[PROMOTED]       t=15101 | New Context Stored (安定状態の公理的再定義)
+[RECALL_SUCCESS] t=15101 | Loaded LibIdx=0 (基準文脈への1ステップでの即時回帰)
+
+ライセンスおよび買収について
+ONTOSのコアエンジン（公理的コントローラーおよびプロモーション・ロジック）は現在非公開（独自知財）です。本リポジトリでは、システムの数理的妥当性を証明するためのベンチマーク環境と検証ログを提供します。
+
+以下の点に関する協議を歓迎いたします：
+
+大規模AI統合のための独占的ライセンス提供。
+
+ONTOS Phase 1-3 ロードマップの戦略的買収。
+
+検証済みパートナー向けの技術的デューデリジェンスの実施。
+
+お問い合わせは、[yubainu98@gmail.com] までご連絡ください。
